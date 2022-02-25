@@ -16,9 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/lt02wifi/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/lt02wifi/proprietary/lib/libril.so:obj/lib/libril.so
-
+    vendor/samsung/lt02wifi/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
+   
 PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifi/proprietary/bin/mrvl_dut:system/bin/mrvl_dut \
     vendor/samsung/lt02wifi/proprietary/bin/powerdaemon:system/bin/powerdaemon \
